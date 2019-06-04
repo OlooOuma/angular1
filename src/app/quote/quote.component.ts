@@ -22,13 +22,13 @@ export class QuoteComponent implements OnInit {
  formReceive(quote) {
    this.quotes.push(quote);
  }
- addVote(index) {
+ addVote(i) {
 // tslint:disable-next-line: no-unused-expression
-   this.quotes[index].upvote + 1;
+   this.quotes[i].upvote += 1;
  }
- subtVote(index) {
+ subtVote(i) {
 // tslint:disable-next-line: no-unused-expression
-  this.quotes[index].downvote + 1;
+  this.quotes[i].downvote += 1;
 }
 
   constructor() { }
