@@ -1,0 +1,10 @@
+.container-fluid{
+  /* margin-left: 40%; */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: brown;
+}
+.sect1{
+ margin-top : 40px;
+}
